@@ -169,8 +169,6 @@ const Swiper = React.forwardRef(
 );
 export default Swiper;
 
-//
-//
 // type P<T> = Record<string, T>;
 //
 // const switchFn =

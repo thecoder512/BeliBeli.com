@@ -1,0 +1,43 @@
+/*
+
+    This code is writen by Ahmed Ayob
+
+*/
+
+@use "../utils" as *;
+@use "./typography" as *;
+
+/*
+
+    Globals
+
+*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: nonw;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: var(--f-body);
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  background-color: none;
+}

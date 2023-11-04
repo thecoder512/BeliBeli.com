@@ -18,14 +18,9 @@ const HeaderBanner = () => {
 
   return (
     <div
-      className="
+      className="banner
           container
-          mx-[auto]
-          flex
-          items-center
-          justify-center
-          gap-6
-          py-2
+         
       "
     >
       {/* here wher i will show the log out button if the user is utharized */}

@@ -1,0 +1,32 @@
+/*
+
+    This code is writen by Ahmed Ayob
+
+*/
+@use "./functions" as f;
+/*
+
+    Mixins
+
+*/
+
+@mixin displayType(
+  $displayType,
+  $alignItems,
+  $justifyContent,
+  $alignContent,
+  $justifyItems
+) {
+  @include f.display(
+    $displayType,
+    $alignItems,
+    $justifyItems,
+    $alignContent,
+    $justifyContent
+  );
+}
+
+@mixin flexs {
+  display: flex;
+  background-color: red;
+}

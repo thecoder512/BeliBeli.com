@@ -1,0 +1,19 @@
+/*
+
+    This code is writen by Ahmed Ayob
+
+*/
+
+@use "../../utils" as *;
+@use "../../globals/" as g;
+
+/*
+
+    Header Banner
+
+*/
+
+.banner {
+  // @include u.display(flex, center, center, center, center);
+  @include flexs;
+}

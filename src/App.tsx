@@ -26,8 +26,8 @@ function App() {
   return (
     <>
       <HeaderBanner />
-      <Header />
-      <HeaderNavigationLinks />
+      {/* <Header /> */}
+      {/* <HeaderNavigationLinks />
       <Routes>
         <Route
           path="/test"
@@ -60,8 +60,8 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
 
         <Route path="/*" element={<Error />} />
-      </Routes>
-      <Footer />
+      </Routes> */}
+      {/* <Footer /> */}
     </>
   );
 }
