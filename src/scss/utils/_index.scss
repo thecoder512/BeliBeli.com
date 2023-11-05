@@ -1,4 +1,4 @@
-@use "./breakpoints";
-@use "./colors";
-@use "./functions";
-@use "./mixins";
+@forward "breakpoints";
+@forward "colors";
+@forward "functions";
+@forward "mixins";

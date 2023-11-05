@@ -4,8 +4,8 @@
 
 */
 
-@use "../../utils" as *;
-@use "../../globals/" as g;
+@use "../../utils" as u;
+@use "../../base" as *;
 
 /*
 
@@ -14,6 +14,15 @@
 */
 
 .banner {
-  // @include u.display(flex, center, center, center, center);
-  @include flexs;
+  column-gap: 1.5rem;
+  display: none;
+  padding: 0.5rem;
+
+  &__link {
+  }
+
+  // breakpoint on 700px
+  @include u.breakpoint("medium") {
+    @include u.flex(flex, center, center);
+  }
 }

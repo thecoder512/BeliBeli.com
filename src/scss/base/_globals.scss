@@ -20,6 +20,7 @@
   padding: 0;
   box-sizing: border-box;
   user-select: nonw;
+  font-family: "Inter", sans-serif;
 }
 
 html {
@@ -27,7 +28,10 @@ html {
 }
 
 body {
+  font-family: "Inter", sans-serif;
+  color: var(--c-black-900);
   font-size: var(--f-body);
+  font-weight: 500;
 }
 
 ul {
