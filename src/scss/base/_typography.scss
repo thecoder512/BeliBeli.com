@@ -45,7 +45,7 @@ p {
   --f-sm: #{u.rem(12)};
   --f-md: #{u.rem(13)};
   --f-nor: #{u.rem(14.4)};
-  --f-lg: 1rem;
-  --f-xl: 1rem;
+  --f-lg: #{u.rem(16)};
+  --f-xl: #{u.rem(19)};
   --f-2xl: 1rem;
 }
